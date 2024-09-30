@@ -81,7 +81,7 @@ hold off;
 legend("Theoretical BER curve","Simulation BER curve");
 xlabel("SNR (db)");
 ylabel("Pb");
-title('P(1)=P(0)=1/2 | Theoretical BER curve vs. Simulation BER curve | Umut Mehmet Erdem-200102002025');
+title('P(1)=P(0)=1/2 | Theoretical BER curve vs. Simulation BER curve');
 %% option b -> for P(1)=1/4, P(0)=3/4
 syms x; N0 = [];
 SNR = 0:15; % SNRdb values
@@ -171,4 +171,4 @@ hold off;
 legend("Theoretical BER curve","Simulation BER curve");
 xlabel("SNR (db)");
 ylabel("Pb");
-title('P(1)=1/4 and P(0)=3/4 | Theoretical BER curve vs. Simulation BER curve | Umut Mehmet Erdem-200102002025');
+title('P(1)=1/4 and P(0)=3/4 | Theoretical BER curve vs. Simulation BER curve');
